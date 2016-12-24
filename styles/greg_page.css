@@ -2,25 +2,86 @@ nav {
   position: fixed;
   background-color: gainsboro;
   height: 50px;
-  width: 100%
+  width: 100%;
+  text-align: right;
+  padding: 10px 15px;
 }
 
 h1 {
   display: inline;
-  position: relative;
-  top: 6px;
+  margin: 0px;
+  float: left;
+  font-weight: normal;
+  font-size: 24px;
 }
 
-a.first {
-  position: relative;
+.top_link {
   color: purple;
-  left: 82%;
   font-size: 1.5em;
+  margin-left: 15px;
 }
 
-a.second {
+main {
+  padding-top: 110px;
+}
+
+.top_space {
+  margin-left: 110px;
+}
+
+form {
+  margin-bottom: 50px;
+}
+
+input {
+  width: 800px;
+  font-size: 24px;
+  border-radius: 3px;
+}
+
+.search_icon {
+  background: url("../images/magnifying-glass.png");
+  background-size: 30px 30px;
+  height: 34px;
+  width: 34px;
+  border-radius: 3px;
   position: relative;
-  color: purple;
-  left: 83%;
-  font-size: 1.5em;
+  top: 4.5px;
+}
+
+.bottom_box {
+  border: 1px solid gainsboro;
+  height: 40px;
+  display: inline-block;
+  padding-top: 8px;
+  font-size: 22px;
+  padding-left: 10px;
+  padding-right: 15px;
+  width: 480;
+  border-radius: 3px;
+  margin-bottom: 50px;
+}
+
+p {
+  display: inline;
+  text-align: center;
+}
+
+.bottom_link {
+  color: black;
+}
+
+.prev {
+  margin-right: 30px;
+  border-right: 1px solid gainsboro;
+  padding-right: 20px;
+}
+
+.page_num {
+  margin-right: 50px;
+}
+
+.next {
+  border-left: 1px solid gainsboro;
+  padding-left: 20px;
 }
